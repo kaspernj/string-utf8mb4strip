@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "string-utf8mb4strip"
   gem.homepage = "http://github.com/kaspernj/string-utf8mb4strip"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A library used for removing utf8mb4 stuff from a string.}
+  gem.description = %Q{A library used for removing utf8mb4 stuff from a string. Typically used to remove this stuff before inserting into MySQL versions before 5.5 where the utf8mb4 encoding was introduced.}
   gem.email = "kj@gfish.com"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile

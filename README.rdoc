@@ -1,6 +1,9 @@
 = string-utf8mb4strip
 
-Description goes here.
+  require "rubygems"
+  require "string-utf8mb4strip"
+  
+  stripped_string = string_object.utf8mb4strip
 
 == Contributing to string-utf8mb4strip
  
